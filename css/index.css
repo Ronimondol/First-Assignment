@@ -1,8 +1,75 @@
-body{
-    margin: 0;
-    padding: 0;
-    outline: 0;
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
 }
-.wrapper{
-    display: flex;
+/* HEADER PART CSS START  */
+.header-section-bg {
+  background-image: url(../image/background.png);
+  background-repeat: no-repeat;
+  background-position: left;
 }
+.wrapper {
+  width: 1140px;
+  display: flex;
+  padding-top: 50px;
+}
+.header-left {
+  width: 50%;
+  padding-left: 120px;
+  padding-top: 40px;
+}
+.header-left .header-span {
+  color: chocolate;
+}
+.header-left h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  line-height: 31px;
+  color: #888282;
+}
+.header-left p {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 12px;
+  color: dimgrey;
+}
+.btn {
+  border: none;
+}
+.btn a {
+  text-decoration: none;
+  padding: 10px 15px;
+  color: darkorange;
+  background-image: linear-gradient(orange, red);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-right {
+  width: 50%;
+  margin-left: 20px;
+}
+.header-right img {
+  width: 100%;
+  height: 500px;
+}
+/* HEADER PART CSS END */
+
+/* BODY PART CSS START */
+
+.body-bg {
+ 
+}
+.body-wrapper {
+  display: flex;
+}
+.body-left{
+    width: 50%;
+}
+.body-right{
+    width: 50%;
+}
+/* BODY PART CSS END */
